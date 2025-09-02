@@ -1,0 +1,190 @@
+/* Importar fuente */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* --- HEADER --- */
+.header {
+    background: #222;
+    padding: 15px 0;
+}
+
+.nav {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff9800;
+}
+
+/* --- SECCIONES --- */
+.section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #222;
+    border-left: 4px solid #ff9800;
+    padding-left: 10px;
+}
+
+/* --- PERFIL --- */
+.profile-container {
+    text-align: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #ff9800;
+}
+
+.profile-name {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.profile-summary {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    color: #555;
+}
+
+.contact-info a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* --- LISTAS --- */
+.list, .list-inline {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.list-inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.list-inline li {
+    background: #f1f1f1;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* --- LINKTREE --- */
+.linktree-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.linktree-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #222;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.linktree-link:hover {
+    background: #ff9800;
+}
+
+/* --- CONTACTO --- */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff9800;
+}
+
+.submit-button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #ff9800;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-button:hover {
+    background: #e68a00;
+}
+
+/* --- FOOTER --- */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 50px;
+}
